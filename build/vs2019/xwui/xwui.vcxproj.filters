@@ -12,6 +12,54 @@
     <Filter Include="Source Files\core">
       <UniqueIdentifier>{6076f440-eb80-4276-8187-fcd978a04fe7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ctrls">
+      <UniqueIdentifier>{b0002b71-e22f-46a0-be39-df340945bd8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{495bf42b-9523-40cc-a2b0-e8b3a6e47608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\text">
+      <UniqueIdentifier>{3e72def3-a3e8-46ca-83d2-69c9d89430c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\layout">
+      <UniqueIdentifier>{dd4ae348-cf54-4bca-8d09-55897629ffe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\locale">
+      <UniqueIdentifier>{e9312d57-02ba-4ce3-8990-b3847ee3e6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resources">
+      <UniqueIdentifier>{da47be62-e646-4f82-9bdb-f6999ca05cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resources\bitmaps">
+      <UniqueIdentifier>{2cbc8ea4-0b7a-4ab0-8733-a4e51c8223de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resources\strings">
+      <UniqueIdentifier>{f4e8c799-e0d7-4344-adbb-b10636385d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\style">
+      <UniqueIdentifier>{b52b2ff6-2b8a-4a7a-a79b-3b7d5a7a7e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\xactive">
+      <UniqueIdentifier>{f93575bc-9307-4a47-9206-cb583ddf16c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\xctrls">
+      <UniqueIdentifier>{9820529d-2835-442e-b17d-4410693185bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\xgraphicsitem">
+      <UniqueIdentifier>{9cb7f7dc-c1be-4b1e-9ea2-70a4afe9fa12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\xgraphicsitem\animations">
+      <UniqueIdentifier>{d62b856c-c75a-4418-b166-57a20db9a6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\xgraphicsitem\interfaces">
+      <UniqueIdentifier>{03a429cd-ef0b-4c0b-af2f-ba551cbdd392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\xgraphicsitem\items">
+      <UniqueIdentifier>{768c34e4-8f19-4077-83e8-a91db23c68f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\xwindow">
+      <UniqueIdentifier>{faaf64c4-95f7-426b-b1fb-815dc08d9dac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\xwui.cpp">
@@ -52,6 +100,339 @@
     </ClCompile>
     <ClCompile Include="..\..\..\src\core\xwcontentprovider.cpp">
       <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ctrls\xcheckbox.cpp">
+      <Filter>Source Files\ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ctrls\xcombobox.cpp">
+      <Filter>Source Files\ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ctrls\xdialogwindow.cpp">
+      <Filter>Source Files\ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ctrls\xlineedit.cpp">
+      <Filter>Source Files\ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ctrls\xmainwindow.cpp">
+      <Filter>Source Files\ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ctrls\xpopupmenu.cpp">
+      <Filter>Source Files\ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ctrls\xpushbutton.cpp">
+      <Filter>Source Files\ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ctrls\xradiobutton.cpp">
+      <Filter>Source Files\ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ctrls\xrichedit.cpp">
+      <Filter>Source Files\ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ctrls\xtabctrl.cpp">
+      <Filter>Source Files\ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ctrls\xtextlabel.cpp">
+      <Filter>Source Files\ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ctrls\xtooltip.cpp">
+      <Filter>Source Files\ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xd2dtextlayout.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xdwanalyse.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xdwfonts.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xdwhelpers.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xgdifonts.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xgditextlayout.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xrichtext.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xrichtextedit.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xrichtextparser.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xtextinlineimage.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xtextinlineobject.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xtextlayout.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xtextservices.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xtextstyleindex.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\text\xuniscribehelpers.cpp">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\xd2dhelpres.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\xd2dresourcescache.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\xgdihelpres.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\xgdiresourcescache.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\ximage.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\ximagefile.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\ximagefilehelpers.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\xwgraphics.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\xwgraphicshelpers.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\graphics\xwichelpers.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\layout\xgridlayout.cpp">
+      <Filter>Source Files\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\layout\xhboxlayout.cpp">
+      <Filter>Source Files\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\layout\xlayout.cpp">
+      <Filter>Source Files\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\layout\xlayoutitem.cpp">
+      <Filter>Source Files\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\layout\xvboxlayout.cpp">
+      <Filter>Source Files\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\locale\xwaction.cpp">
+      <Filter>Source Files\locale</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\locale\xwlangnames.cpp">
+      <Filter>Source Files\locale</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\locale\xwlocale.cpp">
+      <Filter>Source Files\locale</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\add_icon_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\add_selected_icon_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\back_icon_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\back_selected_icon_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\close_15_filled.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\close_15_filled_transparent.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\create_new_icon_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\create_new_selected_icon_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\delete_15.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\delete_filled_15.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\delete_icon_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\delete_selected_icon_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\refresh_icon_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\refresh_selected_icon_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_1_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_1_32.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_2_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_2_32.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_3_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_3_32.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_4_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_4_32.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_5_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_5_32.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_6_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_6_32.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_7_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_7_32.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_8_26.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\bitmaps\spinner_frame_8_32.png.c">
+      <Filter>Source Files\resources\bitmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\strings\xwui_strings_en_us_utf8.c">
+      <Filter>Source Files\resources\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\strings\xwui_strings_en_us_utf16.c">
+      <Filter>Source Files\resources\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\strings\xwui_strings_ru_ru_utf8.c">
+      <Filter>Source Files\resources\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resources\strings\xwui_strings_ru_ru_utf16.c">
+      <Filter>Source Files\resources\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\style\xwuibitmaps.cpp">
+      <Filter>Source Files\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\style\xwuistyle.cpp">
+      <Filter>Source Files\style</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xactive\xoledataobject.cpp">
+      <Filter>Source Files\xactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xactive\xoleinplace.cpp">
+      <Filter>Source Files\xactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xactive\xolestream.cpp">
+      <Filter>Source Files\xactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xactive\xwactive.cpp">
+      <Filter>Source Files\xactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xactive\xwactiveimpl.cpp">
+      <Filter>Source Files\xactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xactive\xwbrowserevents.cpp">
+      <Filter>Source Files\xactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xactive\xwbrowserhelpers.cpp">
+      <Filter>Source Files\xactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xactive\xwiectrl.cpp">
+      <Filter>Source Files\xactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xactive\xwiecustomization.cpp">
+      <Filter>Source Files\xactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xctrls\xwcustomwindow.cpp">
+      <Filter>Source Files\xctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xctrls\xwgridwindow.cpp">
+      <Filter>Source Files\xctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xctrls\xwscrollbarwindow.cpp">
+      <Filter>Source Files\xctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xctrls\xwscrollviewwindow.cpp">
+      <Filter>Source Files\xctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xctrls\xwsplitterwindow.cpp">
+      <Filter>Source Files\xctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\items\xanibitmapitem.cpp">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\items\xbitmapbuttonitem.cpp">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\items\ximageitem.cpp">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\items\xlinkbuttonitem.cpp">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\items\xlistviewitem.cpp">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\items\xscrollbaritem.cpp">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\items\xscrollviewitem.cpp">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\items\xspinneritem.cpp">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\items\xtextbuttonitem.cpp">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\items\xtextedititem.cpp">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\items\xtextitem.cpp">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\items\xtextlabelitem.cpp">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\xgraphicsitem.cpp">
+      <Filter>Source Files\xgraphicsitem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xgraphicsitem\xgraphicsitemwindow.cpp">
+      <Filter>Source Files\xgraphicsitem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xwindow\xhwnd.cpp">
+      <Filter>Source Files\xwindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xwindow\xwindow.cpp">
+      <Filter>Source Files\xwindow</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +486,261 @@
     </ClInclude>
     <ClInclude Include="..\..\..\src\core\xwanimationtimer.h">
       <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ctrls\xcheckbox.h">
+      <Filter>Source Files\ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ctrls\xcombobox.h">
+      <Filter>Source Files\ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ctrls\xdialogwindow.h">
+      <Filter>Source Files\ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ctrls\xlineedit.h">
+      <Filter>Source Files\ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ctrls\xmainwindow.h">
+      <Filter>Source Files\ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ctrls\xpopupmenu.h">
+      <Filter>Source Files\ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ctrls\xpushbutton.h">
+      <Filter>Source Files\ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ctrls\xradiobutton.h">
+      <Filter>Source Files\ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ctrls\xrichedit.h">
+      <Filter>Source Files\ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ctrls\xtabctrl.h">
+      <Filter>Source Files\ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ctrls\xtextlabel.h">
+      <Filter>Source Files\ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ctrls\xtooltip.h">
+      <Filter>Source Files\ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ctrls\xwcontrols.h">
+      <Filter>Source Files\ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xd2dtextlayout.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xdwanalyse.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xdwfonts.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xdwhelpers.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xgdifonts.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xgditextlayout.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xrichtext.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xrichtextedit.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xrichtextparser.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xtextinlineimage.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xtextinlineobject.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xtextlayout.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xtextlayoutbase.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xtextservices.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xtextstyleindex.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\text\xuniscribehelpers.h">
+      <Filter>Source Files\graphics\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\xd2dhelpres.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\xd2dresourcescache.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\xgdihelpres.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\xgdiresourcescache.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\ximage.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\ximagefile.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\ximagefilehelpers.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\xwgraphics.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\xwgraphicshelpers.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\graphics\xwichelpers.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\layout\xgridlayout.h">
+      <Filter>Source Files\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\layout\xhboxlayout.h">
+      <Filter>Source Files\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\layout\xlayout.h">
+      <Filter>Source Files\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\layout\xlayoutitem.h">
+      <Filter>Source Files\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\layout\xvboxlayout.h">
+      <Filter>Source Files\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\layout\xwlayouts.h">
+      <Filter>Source Files\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\locale\xwaction.h">
+      <Filter>Source Files\locale</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\locale\xwlangnames.h">
+      <Filter>Source Files\locale</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\locale\xwlocale.h">
+      <Filter>Source Files\locale</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\resources\xwui_resources.h">
+      <Filter>Source Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\style\xwuibitmaps.h">
+      <Filter>Source Files\style</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\style\xwuistyle.h">
+      <Filter>Source Files\style</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xactive\xoledataobject.h">
+      <Filter>Source Files\xactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xactive\xoleinplace.h">
+      <Filter>Source Files\xactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xactive\xolestream.h">
+      <Filter>Source Files\xactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xactive\xwactive.h">
+      <Filter>Source Files\xactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xactive\xwactivecontrols.h">
+      <Filter>Source Files\xactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xactive\xwactiveimpl.h">
+      <Filter>Source Files\xactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xactive\xwbrowserevents.h">
+      <Filter>Source Files\xactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xactive\xwbrowserhelpers.h">
+      <Filter>Source Files\xactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xactive\xwiectrl.h">
+      <Filter>Source Files\xactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xactive\xwiecustomization.h">
+      <Filter>Source Files\xactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xctrls\xwcustomwindow.h">
+      <Filter>Source Files\xctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xctrls\xwextcontrols.h">
+      <Filter>Source Files\xctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xctrls\xwgridwindow.h">
+      <Filter>Source Files\xctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xctrls\xwscrollbarwindow.h">
+      <Filter>Source Files\xctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xctrls\xwscrollviewwindow.h">
+      <Filter>Source Files\xctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xctrls\xwsplitterwindow.h">
+      <Filter>Source Files\xctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\interfaces\ixscrollbaritem.h">
+      <Filter>Source Files\xgraphicsitem\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\items\xanibitmapitem.h">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\items\xbitmapbuttonitem.h">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\items\ximageitem.h">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\items\xlinkbuttonitem.h">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\items\xlistviewitem.h">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\items\xscrollbaritem.h">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\items\xscrollviewitem.h">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\items\xspinneritem.h">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\items\xtextbuttonitem.h">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\items\xtextedititem.h">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\items\xtextitem.h">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\items\xtextlabelitem.h">
+      <Filter>Source Files\xgraphicsitem\items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\xgraphicsitem.h">
+      <Filter>Source Files\xgraphicsitem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\xgraphicsitemwindow.h">
+      <Filter>Source Files\xgraphicsitem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xgraphicsitem\xwgraphicsitems.h">
+      <Filter>Source Files\xgraphicsitem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xwindow\xhwnd.h">
+      <Filter>Source Files\xwindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xwindow\xwindow.h">
+      <Filter>Source Files\xwindow</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

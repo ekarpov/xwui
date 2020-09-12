@@ -54,11 +54,22 @@
 
 /////////////////////////////////////////////////////////////////////
 // style
-//#include "style/xwuistyle.h"
+#include "style/xwuistyle.h"
 
 /////////////////////////////////////////////////////////////////////
 // localization
-//#include "locale/xwlocale.h"
+#include "locale/xwlocale.h"
+
+/////////////////////////////////////////////////////////////////////
+// painter types
+enum XWUIGraphicsPainter
+{
+    XWUI_PAINTER_AUTOMATIC = 0,     // select best available painter automatically
+    XWUI_PAINTER_GDI,               // use GDI painter
+    XWUI_PAINTER_D2D                // use Direct2D painter
+};
+
+XWUIGraphicsPainter sXWUIDefaultPainter();
 
 /////////////////////////////////////////////////////////////////////
 

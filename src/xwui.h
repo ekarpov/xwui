@@ -7,19 +7,33 @@
 #define _XWUI_H_
 
 /////////////////////////////////////////////////////////////////////
+
 // configuration
 #include "xwui_config.h"
 
-/////////////////////////////////////////////////////////////////////
-// painter types
-enum XWUIGraphicsPainter
-{
-    XWUI_PAINTER_AUTOMATIC = 0,     // select best available painter automatically
-    XWUI_PAINTER_GDI,               // use GDI painter
-    XWUI_PAINTER_D2D                // use Direct2D painter
-};
+// localization
+#include "locale/xwaction.h"
 
-XWUIGraphicsPainter sXWUIDefaultPainter();
+// layouts
+#include "layout/xwlayouts.h"
+
+// xwindow
+#include "xwindow/xwindow.h"
+
+// controls
+#include "ctrls/xwcontrols.h"
+
+// graphics 
+#include "graphics/xwgraphics.h"
+
+// graphics items
+#include "xgraphicsitem/xwgraphicsitems.h"
+
+// ActiveX controls
+#include "xactive/xwactivecontrols.h"
+
+// extended controls
+#include "xctrls/xwextcontrols.h"
 
 /////////////////////////////////////////////////////////////////////
 
