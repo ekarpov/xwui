@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{D65AADF8-6AB2-4CF9-B7A5-428096F0ED34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demos", "demos", "{B7C7DA45-F36B-4FCE-A437-7BC5AB06B3CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "development", "development", "{48C19CF9-BF16-4E24-9F2E-E6C27B65CDEF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xwui", "xwui\xwui.vcxproj", "{DCB243E3-4ECA-4F21-9C64-995C02AB0875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCB243E3-4ECA-4F21-9C64-995C02AB0875}.Debug|x64.ActiveCfg = Debug|x64
+		{DCB243E3-4ECA-4F21-9C64-995C02AB0875}.Debug|x64.Build.0 = Debug|x64
+		{DCB243E3-4ECA-4F21-9C64-995C02AB0875}.Debug|x86.ActiveCfg = Debug|Win32
+		{DCB243E3-4ECA-4F21-9C64-995C02AB0875}.Debug|x86.Build.0 = Debug|Win32
+		{DCB243E3-4ECA-4F21-9C64-995C02AB0875}.Release|x64.ActiveCfg = Release|x64
+		{DCB243E3-4ECA-4F21-9C64-995C02AB0875}.Release|x64.Build.0 = Release|x64
+		{DCB243E3-4ECA-4F21-9C64-995C02AB0875}.Release|x86.ActiveCfg = Release|Win32
+		{DCB243E3-4ECA-4F21-9C64-995C02AB0875}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D53FF81-0BFD-491F-8A7D-330C304B4DF9}
+	EndGlobalSection
+EndGlobal

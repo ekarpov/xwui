@@ -1,0 +1,3 @@
+build/binaries/
+build/vs2019/.vs/
+*.vcxproj.user
